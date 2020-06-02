@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+#new-form {
+  width: 50%;
+  margin-left: 25%
+}
+
+#edit-form {
+  width: 90%;
+  margin-left: 10%
+}
+
+.ui.form {
+  width: 30%;
+  margin-left: 35%
+}
+
+.notelist {
+  background-color: #51e5ff;
+  border: 1px solid #0a027e;
+  border-radius: 10px;
+  width: 100%;
+  margin-left: 10%;
+  max-height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto
+}
+
+.ui.inverted.menu {
+  background-color: #e99331;
+}
+
+.ui.basic.button {
+  color: #422929
+}
+
+.ui.container {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%
+}
+
+.ui.basic.button {
+  border: 1px solid #0a027e;
+}
+
+.note-detail {
+  border: 1px solid #0a027e;
+  background-color: #51e5ff;
+  /* box-shadow: 5px 10px 8px #0ca9b4; */
+  width: 90%;
+  margin-left: 5%;
+  /* border-radius: 10px; */
+  padding: 20px;
+}
+
+.ui.big.segment {
+  max-height: 150px;
+  color: #0a027e;
+  overflow: hidden
+}
