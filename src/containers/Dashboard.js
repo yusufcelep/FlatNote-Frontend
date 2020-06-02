@@ -35,11 +35,6 @@ class Dashboard extends Component {
         return (
             <div>
                 <Grid>
-                {/* <Grid.Column width={2}>
-                    <h3>Filter By Tag</h3>
-                    <Button basic onClick={this.resetFilter}>All Notes</Button>
-                    <div className='tag-list' onClick= {this.handleTagSelect}>{this.listTags()}</div>
-                </Grid.Column> */}
                 <Grid.Column width={4}>
                     {this.props.notes && this.props.notes.length > 0 ? (
                     <NoteList notes={this.state.tagId ? this.props.filteredNotes : this.props.notes} selectNote={this.props.selectNote}/>
@@ -48,6 +43,11 @@ class Dashboard extends Component {
                 <Grid.Column width={10}>
                     <Route exact path={`${this.props.match.url}/note/:noteId`} render={routerProps => <NoteDetail {...routerProps} deleteNote={this.props.deleteNote} myNote={this.props.selectedNote}/>} />
                     <Route exact path={`${this.props.match.url}/note/:noteId/edit`} render={routerProps => <EditForm {...routerProps} note={this.props.selectedNote} />} />
+                </Grid.Column>
+                <Grid.Column width={2}>
+                    <h3>Filter By Tag</h3>
+                    <Button basic onClick={this.resetFilter}>All Notes</Button>
+                    <div className='tag-list' onClick= {this.handleTagSelect}>{this.listTags()}</div>
                 </Grid.Column>
                 </Grid>
             </div>
