@@ -17,6 +17,11 @@ Welcome to FlatNote! A simple note lister app that lets you add, edit, delete, a
   - Edit/Delete notes written by the logged in user 
 - Filter notes by tags
 
+## Features To Come
+- Prioritize notes in order you want
+- Calander implementation
+- Email reminders
+
 To get started on the frontend please have the latest version of react installed.
 - Run npm install
 - Run npm start
