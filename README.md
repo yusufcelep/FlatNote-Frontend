@@ -23,7 +23,8 @@ Welcome to FlatNote! A simple note lister app that lets you add, edit, delete, a
 - Calander implementation
 - Email reminders
 
-To get started on the frontend please have the latest version of react installed.
+## Installing:
+To get started on the frontend please have the latest version of react installed and make sure you have the backend running.
 - Run npm install
 - Run npm start
 - Once server is open in browser,
