@@ -4,10 +4,10 @@
   Frontend
 </div>
 
+Welcome to FlatNote! A simple note lister app that lets you add, edit, delete, and filter notes that you have made using React-Redux principles.
+
 # [Demo](https://drive.google.com/file/d/1S18Q288IUks0Z3fVAseYrD379mGsCoor/view?usp=sharing)
 ![FlatNote](https://github.com/yusufcelep/FlatNote-Frontend/blob/master/public/FlatNote.gif?raw=true)
-
-Welcome to FlatNote! A simple note lister app that lets you add, edit, delete, and filter notes that you have made using React-Redux principles.
 
 ## Features 
 - Sign in/Sign up option
