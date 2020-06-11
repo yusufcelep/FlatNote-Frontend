@@ -1,8 +1,9 @@
 <h1 align="center">FlatNote</h1>
 
 <div align="center">
-  Frontend
+  - Frontend -
 </div>
+<br>
 
 Welcome to FlatNote! A simple note lister app that lets you add, edit, delete, and filter notes that you have made using React-Redux principles.
 
